@@ -1,0 +1,95 @@
+@font-face {
+    font-family: 'robo';
+    src: url(assets/fontes/idroid.otf);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #93ecba;
+}
+
+header {
+    width: 100%;
+    height: 220px;
+    background-image: linear-gradient(#38CA79, #0d301d);
+
+    h1 {
+        text-align: center;
+        font-family: sans-serif;
+        color: white;
+        padding-top: 30px;
+        font-size: 30px;
+
+    }
+
+    p {
+        padding-top: 30px;
+        text-align: center;
+        margin: auto;
+        width: 390px; 
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .links {
+        margin-top: 65px;
+        a {
+            color: white;
+            text-decoration: none;
+            margin-left: 30px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 900px;
+            &:hover{
+                background: rgb(13, 99, 1);
+                padding: 5px;
+                border-radius: 5px;
+            }
+        }
+    }
+    }
+    main{
+        width: 70%;
+        margin: auto;
+        background-color: white;
+        padding: 15px;
+        box-shadow: 1px 1px 9px #579471;
+        h2{
+            font-family: robo;
+            color: #416e54;
+            padding-top: 10px;
+        }
+        .border{
+            background-image: linear-gradient(to right, #93ECBA, rgba(16, 245, 16, 0.014));
+            padding: 0px 5px;
+        }
+        p{
+            padding-top: 10px;
+            padding-bottom: 10px;
+            text-indent: 25px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 550;
+        }
+       .imgrobo{
+           img{
+            /* border: 2px solid red; */
+            margin-left: 50%;
+            transform: translate(-50%);
+           }
+        }
+        .imgart{
+            img{
+                /* border: 2px solid red; */
+                margin-left: 50%;
+                transform: translate(-50%);
+                width: 600px;
+            }
+        }
+        img{
+            margin-left: 50%;
+            transform: translate(-50%);
+        }
+    }

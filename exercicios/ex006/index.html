@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body{
+            background-image: linear-gradient(rgb(151, 151, 151), gray);
+            margin: 0;
+        }
+        header{
+            margin: 10px;
+            background-color: white;
+            padding: 10px;
+            nav{
+               
+                background-color: rgb(54, 54, 54);
+                box-shadow: inset 3px 3px 2px black;
+                a{
+                    color: white;
+                    text-decoration: none;
+                    margin-left: 20px;
+                    border-image-source: url('borda.png');
+                    border-image-slice: 20;
+                    border-image-repeat: repeat;
+                }
+            }
+        }
+        section{
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+            aside{
+                border-radius: 10px;
+                background-color: rgb(161, 161, 161);
+                padding: 2px 5px;
+                padding-bottom: 30px;
+            }
+            article article{
+                background-color: rgb(105, 105, 105);
+                padding: 0px 2px;
+            }
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 2px;
+            h3{
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Meu Site</h1>
+            <nav><a href="#">Link</a><a href="#">Link</a><a href="#">Link</a><a href="#">Link</a><a href="#">Link</a></nav>
+        </header>
+        <section>
+            <p>Esportes E Politica</p>
+            <aside>
+                <article>
+                    <h2>Noticia sobre o Brasil</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere molestias doloribus consectetur, accusamus ea adipisci repellat est quod perspiciatis aperiam odit deserunt ut vel harum obcaecati odio ratione pariatur aliquid!</p>
+                    <ul>
+                        <li>Segunda</li>
+                        <li>Terça</li>
+                        <li>Quarta</li>
+                    </ul>
+                    <article>Artigo escrito por Daniel</article>
+                </article>
+            </aside>
+        </section>
+    </main>
+<footer>
+    <h3>Desenvolvido Por Daniel</h3>
+</footer>
+</body>
+</html>
