@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <style>
+        body{
+            background-color: rgb(202, 202, 202);
+            margin-top: 200px;
+        }
+        table{
+            margin: auto;
+            width: 500px;
+            height: 500px;
+            padding: 10px;
+            border-radius: 10px;
+            background-color: rgb(0, 0, 0);
+            border: 2px solid black;
+            /* border-collapse: collapse; */
+            .top{
+                background-color: rgb(31, 206, 206);
+                font-weight: bold;
+            }
+            td{
+                /* border: 1px solid black; */
+                padding: 10px;
+                border-radius: 20%;
+                text-align: center;
+                color: white;
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+                box-shadow: 6px 5px 1cqi rgb(165, 9, 165);
+                background-color: rgb(184, 13, 184);
+                &:hover{
+                    background-color: rgb(68, 3, 99);
+                }
+            }
+        }
+    </style>
+</head>
+<body>
+    <table>
+        
+        <tr>
+            <td class="top">AC</td>
+            <td class="top">( )</td>
+            <td class="top">%</td>
+            <td class="top">/</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+            <td>9</td>
+            <td class="top" colspan="2">X</td>
+        </tr>
+       
+        <tr>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+            <td class="top" colspan="2">-</td>
+        </tr>
+       
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td class="top" colspan="2">+</td>
+        </tr>
+       
+        <tr>
+            <td>0</td>
+            <td>,</td>
+            <td>'</td>
+            <td class="top" colspan="2">=</td>
+        </tr>
+       
+    </table>
+</body>
+</html>
