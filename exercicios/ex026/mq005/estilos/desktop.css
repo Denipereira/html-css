@@ -1,0 +1,32 @@
+@media screen and (min-width: 992px) and (max-width: 1600px) {
+
+    menu {
+        margin-top: 55px;
+
+        li {
+            display: inline-block;
+
+            a {
+                text-decoration: none;
+                color: white;
+                background-color: rgb(66, 65, 65);
+                padding: 15px;
+                font-size: 1.2em;
+
+                &:hover {
+                    background-color: rgb(99, 99, 99);
+                }
+            }
+        }
+    }
+    main {
+        margin-top: 30px;
+        width: 1000px;
+        p{
+            font-size: 0.9em;
+            line-height: 1.5em;
+        }
+    }
+}
+
+
